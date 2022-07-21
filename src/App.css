@@ -1,0 +1,102 @@
+.title {
+  color: dimgrey;
+  text-align: center;
+}
+
+.add-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.add-input {
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.edit-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.edit-input {
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.todo-row {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.main {
+  display: grid;
+  justify-content: center;
+}
+
+/* .todo-row:nth-child(even) {
+  padding: 12px;
+  text-align: left;
+  border: 3px solid green;
+  background: linear-gradient(90deg) rgb(111, 166, 206) 12%,
+    rgb(71, 82, 95) 100%;
+}
+
+.todo-row:nth-child(odd) {
+  padding: 12px;
+  text-align: left;
+  border: 3px solid rgb(128, 105, 0);
+  background: linear-gradient(90deg) rgb(111, 166, 206) 12%,
+    rgb(71, 82, 95) 100%;
+} */
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 12px;
+}
+
+.delete-icon {
+  color: rgb(218, 94, 94);
+}
+
+.edit-icon {
+  color: rgb(101, 103, 219);
+}
+
+.content {
+  flex: 1;
+}
